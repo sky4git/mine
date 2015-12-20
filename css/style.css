@@ -1,0 +1,59 @@
+/*
+ ################          MineSweeper Game        ###################
+ Author: Aakash Dodiya
+ Date: 8 August 2012
+*/
+
+	table.mine-sweeper {
+		margin:auto; 
+	}
+
+	table.mine-sweeper button {
+		background-color: #5BE0CC ;
+		box-shadow: 10px 10px 5px #888888;
+		border: 0px solid #333333 ;
+		cursor: pointer ;
+		height: 25px ;
+		line-height: 25px ;
+		overflow: hidden ;
+		text-align: center ;
+		width: 25px ;
+		font-size:25px;
+		font-weight: bold ; 
+	}
+		
+	table.mine-sweeper button.clicked {
+		background-color: #F0F0F0 ; color:blue;
+	}
+  
+	table.mine-sweeper button.bomb {
+		color:red; 
+	}
+	 
+	table.mine-sweeper button.near{
+		color:blue;  
+	}
+		
+	table.mine-sweeper button.flag{
+		color:green; 
+	}		
+		
+	#queryContent {
+		margin-left:300px; width:100%;
+	}
+		
+	#queryContent button {
+		background-color: #F0F0F0; height:50px;  width: 100px ; margin:5px 5px; text-align:center;
+	}
+		
+	#buttonWrapper{
+		width:1000px;
+		height:auto;
+		overflow:hidden;
+		display: block;
+		margin-left: auto;
+		margin-right: auto; 
+	}
+	#copyright{
+		font-size:20px; text-align:center;
+	}

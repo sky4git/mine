@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Mine Sweeper - Powerd by Javascript : Made By Aakash Dodiya</title>
+    
+    <meta name="description" content="Game" />
+    <meta name="author" content="Aakash Dodiya" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.jpg" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>  
+	<script type="text/javascript" src="js/mine.js"></script>  
+</head>
+<body onload="newGame()">
+	<div id="queryContent">	
+		<button onclick="areaSize('small')">Small</button>
+		<button onclick="areaSize('medium')">Medium</button>
+		<button onclick="areaSize('large')">Large</button>
+		<button onclick="newGame()">New Game</button>
+		<button onclick="validate()">Validate</button>
+		<button onclick="cheat()">Cheat</button>
+	</div> 
+	 <div id="buttonWrapper"></div>
+	 <div id="copyright"><a href="/code">Download code</a><br/>&copy;2012 Aakash Dodiya</div>
+</body>
+</html>
